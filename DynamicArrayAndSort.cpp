@@ -55,5 +55,6 @@ int main()
 
     printSortedArray(names, nNames);
 
+    delete[] names;
     return 0;
 }
